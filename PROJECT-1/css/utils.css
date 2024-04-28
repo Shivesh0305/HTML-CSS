@@ -1,0 +1,13 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-search{
+    position: relative;
+    right: 5.5vw;
+    cursor: pointer;
+}
+.text-center{
+    text-align: center;
+}
