@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        header {
+            background-color: black;
+            color: white;
+            height: 5vh;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            /* z-index: 1; */
+        }
+        ul{
+            background-color: red;
+        }
+        li {
+            /* display: inline; */
+            list-style: circle inside url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fthenounproject.com%2Ficon%2Fbullet-point-4084301%2F&psig=AOvVaw2V07yhOqy5K6QaEd1Rjl-s&ust=1701093039207000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLi6iMbn4YIDFQAAAAAdAAAAABAE);
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid white;
+        }
+
+        .container {
+            background-color: rgb(4, 4, 145);
+            color: aqua;
+            height: 440px;
+            width: 50vw;
+            margin: auto;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: rgba(255, 255, 0, 0.5);
+            color: black;
+            /* position: relative; */
+            /* top: 100px;
+            left: 100px; */
+            /* position: absolute; */
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        .box2 {
+            height: 200px;
+            width: 200px;
+            background-color: rgba(255, 0, 0, 0.433);
+            color: black;
+            /* position: relative; */
+            top: 100px;
+            left: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact me</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus animi quis quam atque fugiat delectus
+            earum pariatur, enim, eaque ex deserunt rerum sunt? Officiis rerum laborum deserunt ea corporis architecto.
+        </p>
+        <div class="box">
+            I am a box
+        </div>
+        <div class="box2">
+            I am a box2
+        </div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ul>
+</body>
+
+</html>

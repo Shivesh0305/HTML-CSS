@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .main{
+            height: 100vh;
+            width: 100vw;
+            background-color: red;
+        }
+        .sub img{
+            height: 20vh;
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            /* animation-name: shivesh;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse ; */
+            animation: shivesh 3s ease-in-out 1s infinite alternate-reverse;
+        }
+        @keyframes shivesh {
+            from{
+                width: 20vw;
+                height: 10vh;
+            }
+            to{
+                width: 100vw;
+                height: 50vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
+            alt="img">
+        </div>
+    </div>
+</body>
+</html>

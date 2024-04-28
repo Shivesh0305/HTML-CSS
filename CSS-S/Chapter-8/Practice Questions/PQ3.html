@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQ3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            height: 6vh;
+            display: flex;
+            align-items: center;
+        }
+
+        ul {
+            justify-content: right;
+            color: white;
+            text-wrap: wrap;
+        }
+
+        li { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: inline;
+            padding: 3vw;
+            animation: rotate 3s infinite 1s;
+            
+        }
+        li:hover{
+            font-family: 'Tiro Devanagari Sanskrit', serif;
+            color: aqua;
+            
+        }
+
+        @keyframes rotate {
+            from{
+                transform: rotateY(0deg);
+            }
+            to{
+                transform: rotateY(90deg);
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
